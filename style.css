@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container{
+    background-color: #ffffffc9;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-control{
+    padding: 20px;
+    border-top: 0 none;
+    border-left: 0 none;
+    border-right: 0 none;
+    background-color: transparent;
+}
+
+/* .temparature-control-option{
+    padding: 20px;
+    border-top: 0 none;
+    border-left: 0 none;
+    border-right: 0 none;
+} */
+
+.value{
+    background-color: aquamarine;
+    font-size: 15px;
+
+}
+
+.temparature-card-container{
+    background-color: aliceblue;
+    padding: 20px;
+    width: 80%;
+    border-radius : 20px;
+}
+
+.converted-temparature{
+    font-size: 20px;
+    font-weight: 600;
+}
+.message{
+    color: black;
+
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto;
+}
